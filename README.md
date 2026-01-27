@@ -1,4 +1,4 @@
-# Cuhsat Fox
+# cuhsat/fox
 
 ## How do I install these formulae?
 
