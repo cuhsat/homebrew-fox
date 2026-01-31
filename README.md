@@ -1,3 +1,3 @@
 ```
-brew tap cuhsat/fox && brew install fox
+brew install cuhsat/fox/fox
 ```
