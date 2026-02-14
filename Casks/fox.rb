@@ -3,7 +3,7 @@ cask "fox" do
   name "fox"
   desc "Forensic Examiners Swiss Army Knife"
   homepage "https://foxhunt.dev/"
-  version "4.37.1"
+  version "4.37.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -24,12 +24,12 @@ cask "fox" do
     on_intel do
       url "https://github.com/cuhsat/fox/releases/download/v#{version}/fox_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/cuhsat/homebrew-fox/"
-      sha256 "e139f529104e15e6be35d096f94afb13720bb29b6df753f02451329f7cf860b3"
+      sha256 "046e33d29e20420c5b8377108557086815037e743354f138c283d5e617c0d804"
     end
     on_arm do
       url "https://github.com/cuhsat/fox/releases/download/v#{version}/fox_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/cuhsat/homebrew-fox/"
-      sha256 "6ff3236c3edf07df7f070a10eeea6fa8a1fd619e3240d4f9aa5b8ce2218b25c1"
+      sha256 "e08986af2f131e077fb1d65378e9f01b0a375f3ba9a90215be3e28194e34c6de"
     end
   end
 
@@ -37,12 +37,12 @@ cask "fox" do
     on_intel do
       url "https://github.com/cuhsat/fox/releases/download/v#{version}/fox_#{version}_linux_amd64.tar.gz",
         verified: "github.com/cuhsat/homebrew-fox/"
-      sha256 "e1267a31fa29f887e804b10d951ca06db64b162f68f43f3026afb2aeb2bbd464"
+      sha256 "09151d6fa48db9ceccf8789a562f54bc7140c1aecfa4cfc55a3deebc161234da"
     end
     on_arm do
       url "https://github.com/cuhsat/fox/releases/download/v#{version}/fox_#{version}_linux_arm64.tar.gz",
         verified: "github.com/cuhsat/homebrew-fox/"
-      sha256 "0e2a6a7103364f7e104b8e25211114ccd952f4cbc79a9317e3933e9306a6f433"
+      sha256 "cf343241d330e2ec7cd7b96a9ec0b867291fa0709699f3942395e4d3f8d4cea8"
     end
   end
 
