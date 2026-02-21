@@ -3,33 +3,33 @@ cask "fox" do
   name "fox"
   desc "Forensic Examiners Swiss Army Knife"
   homepage "https://foxhunt.dev/"
-  version "4.38.4"
+  version "4.38.5"
 
   livecheck do
     skip "Auto-generated on release."
   end
 
   binary "fox"
-  manpage "fox.1"
   manpage "fox-cat.1"
-  manpage "fox-hex.1"
-  manpage "fox-text.1"
-  manpage "fox-hash.1"
-  manpage "fox-list.1"
   manpage "fox-dump.1"
-  manpage "fox-test.1"
+  manpage "fox-hash.1"
+  manpage "fox-hex.1"
   manpage "fox-hunt.1"
+  manpage "fox-list.1"
+  manpage "fox-test.1"
+  manpage "fox-text.1"
+  manpage "fox.1"
 
   on_macos do
     on_intel do
       url "https://github.com/cuhsat/fox/releases/download/v#{version}/fox_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/cuhsat/homebrew-fox/"
-      sha256 "75ca1079d6ff22a11e933857df63aeeba5a0d4459265f9755309f4f9f74ae89e"
+      sha256 "3644b462fb81c1338cc693bf88d853a3462677066cb2e9af08d30854a0df2051"
     end
     on_arm do
       url "https://github.com/cuhsat/fox/releases/download/v#{version}/fox_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/cuhsat/homebrew-fox/"
-      sha256 "20d6e9ef310887c6207ad667c103fe473349a756a9f780e160bde77141aab9b3"
+      sha256 "48390665d3718c32fd4ca21f50f7d4e6421c01b085f8442bbd2359a93749aa4f"
     end
   end
 
@@ -37,12 +37,12 @@ cask "fox" do
     on_intel do
       url "https://github.com/cuhsat/fox/releases/download/v#{version}/fox_#{version}_linux_amd64.tar.gz",
         verified: "github.com/cuhsat/homebrew-fox/"
-      sha256 "f7a2b3ad3d0b50d13e01dbac8719459f9d5b973af7bb4d61f98d1dc52f250828"
+      sha256 "dff7a83a69d832eafb122353d64cd9dd1eda09d71d3f29b7f42fb40b79c0a05f"
     end
     on_arm do
       url "https://github.com/cuhsat/fox/releases/download/v#{version}/fox_#{version}_linux_arm64.tar.gz",
         verified: "github.com/cuhsat/homebrew-fox/"
-      sha256 "318a58f2c1a3e666afb99d40e7814841b1c01f87e9645157d74974eb6fa4768f"
+      sha256 "897da73607168a4af779950f4ade1a18e4a40a3aa1ab773c479d750e80468c30"
     end
   end
 
