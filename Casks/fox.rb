@@ -3,7 +3,7 @@ cask "fox" do
   name "fox"
   desc "Forensic Examiners Swiss Army Knife"
   homepage "https://foxhunt.dev/"
-  version "4.38.5-b"
+  version "4.38.5-c"
 
   livecheck do
     skip "Auto-generated on release."
@@ -22,27 +22,27 @@ cask "fox" do
 
   on_macos do
     on_intel do
-      url "https://github.com/cuhsat/fox/releases/download/v#{version}/fox_#{version}_darwin_amd64.tar.gz",
+      url "https://github.com/cuhsat/fox/releases/download/v#{version}/fox_darwin_amd64.tar.gz",
         verified: "github.com/cuhsat/homebrew-fox/"
-      sha256 "c03e83eb1ebcbf1c9cd7ad260b19dd75fff9d940e9133d549d4f589496fdb50b"
+      sha256 "3846c678eefa15ee0419b09cff9c004f37ad2789996b4937bf4b711bf9450d89"
     end
     on_arm do
-      url "https://github.com/cuhsat/fox/releases/download/v#{version}/fox_#{version}_darwin_arm64.tar.gz",
+      url "https://github.com/cuhsat/fox/releases/download/v#{version}/fox_darwin_arm64.tar.gz",
         verified: "github.com/cuhsat/homebrew-fox/"
-      sha256 "f07ff4bbdf112e91802c0de020329a92181428e6be71f8cf82a7b28114c3a1b2"
+      sha256 "6764aa92146ca53c8237ba0ea0b4bc4959a2610640c75e19506442aba96ed7d4"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/cuhsat/fox/releases/download/v#{version}/fox_#{version}_linux_amd64.tar.gz",
+      url "https://github.com/cuhsat/fox/releases/download/v#{version}/fox_linux_amd64.tar.gz",
         verified: "github.com/cuhsat/homebrew-fox/"
-      sha256 "ebe3a86b813a3fd533a68e2c359ffb78818793e95a4bb5e710b5d135dff3354e"
+      sha256 "9865730d2a43c1a855592f242253295240110f006fde4b23abb9deec21583f4d"
     end
     on_arm do
-      url "https://github.com/cuhsat/fox/releases/download/v#{version}/fox_#{version}_linux_arm64.tar.gz",
+      url "https://github.com/cuhsat/fox/releases/download/v#{version}/fox_linux_arm64.tar.gz",
         verified: "github.com/cuhsat/homebrew-fox/"
-      sha256 "b925094ebd2eb0de05656223726a1320a774e1e5d57091f9f7d3bbaba8ea6488"
+      sha256 "220c7805b67f9e1b929ddce701d13dac99f0474d6acdc94b307d1f851e88fab2"
     end
   end
 
