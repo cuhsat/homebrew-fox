@@ -1,3 +1,3 @@
 ```
-brew install cuhsat/fox/fox
+brew install f0x4n6/fox/fox
 ```
