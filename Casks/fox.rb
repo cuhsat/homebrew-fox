@@ -2,8 +2,8 @@
 cask "fox" do
   name "fox"
   desc "The Forensic Examiners Swiss Army Knife"
-  homepage "https://foxhunt.dev/"
-  version "4.42.1"
+  homepage "https://foxforensics.dev/"
+  version "4.43.4"
 
   livecheck do
     skip "Auto-generated on release."
@@ -19,27 +19,27 @@ cask "fox" do
 
   on_macos do
     on_intel do
-      url "https://github.com/cuhsat/fox/releases/download/v#{version}/fox_darwin_amd64.tar.gz",
-        verified: "github.com/cuhsat/homebrew-fox/"
-      sha256 "4230ed514cf0eca36e058a22abc99e1520e4a3891abbba26d9ad978af2c9ad7b"
+      url "https://github.com/f0x4n6/fox/releases/download/v#{version}/fox_darwin_amd64.tar.gz",
+        verified: "github.com/f0x4n6/fox-cask/"
+      sha256 "401ad5fd03e0c520457d194bc573579804406193a6d2ea4a0526d468bd1c7504"
     end
     on_arm do
-      url "https://github.com/cuhsat/fox/releases/download/v#{version}/fox_darwin_arm64.tar.gz",
-        verified: "github.com/cuhsat/homebrew-fox/"
-      sha256 "f93f52033e7cfda32b086e7c9b8e95d7db2b188038a3b774fa2fede481829dec"
+      url "https://github.com/f0x4n6/fox/releases/download/v#{version}/fox_darwin_arm64.tar.gz",
+        verified: "github.com/f0x4n6/fox-cask/"
+      sha256 "9152b0685b2d6c020d02a46c2d62a05c3ac426917ac2e0c2d361b3102bf3ce5c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/cuhsat/fox/releases/download/v#{version}/fox_linux_amd64.tar.gz",
-        verified: "github.com/cuhsat/homebrew-fox/"
-      sha256 "c6c9b609366566bd74987767d744cb66f9f15e64acf56efda4bb5d82a4754294"
+      url "https://github.com/f0x4n6/fox/releases/download/v#{version}/fox_linux_amd64.tar.gz",
+        verified: "github.com/f0x4n6/fox-cask/"
+      sha256 "a69ce159e0e2ef27c1e21caf5b0002fad7a3b131149985ccf270f3e7787650e2"
     end
     on_arm do
-      url "https://github.com/cuhsat/fox/releases/download/v#{version}/fox_linux_arm64.tar.gz",
-        verified: "github.com/cuhsat/homebrew-fox/"
-      sha256 "bb3e7b2c299351a78961d488f5e312f32fc5f2b6478f671ed9458003830938ff"
+      url "https://github.com/f0x4n6/fox/releases/download/v#{version}/fox_linux_arm64.tar.gz",
+        verified: "github.com/f0x4n6/fox-cask/"
+      sha256 "2b2b47d7e6e469d1476f7858f2ccb05e48c8475cc00a17dc93e382d04400af3d"
     end
   end
 
